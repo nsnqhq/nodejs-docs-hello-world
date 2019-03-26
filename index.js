@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World! Jepkins Test! №3");
+    response.end("This is my test build with Jepkins!");
 });
 
 const port = process.env.PORT || 1337;
